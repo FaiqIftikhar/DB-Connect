@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a03_04_ap.FXML_AboutController">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="190.0" layoutY="61.0" text="DB Connect " AnchorPane.bottomAnchor="322.0" AnchorPane.leftAnchor="230.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="167.0" layoutY="112.0" text="Developed By: Hamza Azam, Faiq Iftikhar, Anees Ul Anwar" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="172.0" text="FAST NUCES" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Tahoma" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="268.0" layoutY="376.0" mnemonicParsing="false" onAction="#goToHomeView" text="Home">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="195.0" layoutY="208.0" pickOnBounds="true">
+         <image>
+            <Image url="@Slitheen-boy.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

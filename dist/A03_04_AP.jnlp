@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="A03_04_AP.jnlp">
+  <information>
+    <title>A03_04_AP</title>
+    <vendor>Hamza Azam</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="A03_04_AP.jar" size="676593" download="eager" />
+    <jar href="lib\commons-lang-2.6.jar" size="284220" download="eager" />
+    <jar href="lib\commons-logging-1.1.3.jar" size="62050" download="eager" />
+    <jar href="lib\hsqldb.jar" size="1467326" download="eager" />
+    <jar href="lib\jackcess-2.1.11.jar" size="882908" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib\ucanaccess-4.0.4.jar" size="386403" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="A03_04_AP" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="a03_04_ap.A03_04_AP"  name="A03_04_AP" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,47 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.button {
+  -fx-border-radius: 4px;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.55) , 5, 0.0 , 0 , 1 );
+  -fx-background-color:lightcyan;
+  -fx-border: none;
+  -fx-color: #FFFFFF;
+  -fx-text-align: center;
+  -fx-font-size: 11px;
+  padding: 20px;
+  -fx-width: 200px;
+  -fx-transition: all 0.5s;
+  cursor: pointer;
+  -fx-margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  -fx-display: inline-block;
+  -fx-position: relative;
+  -fx-transition: 0.5s;
+}
+
+.button span:after {
+  -fx-content: '\00bb';
+  -fx-position: absolute;
+  -fx-opacity: 0;
+  -fx-top: 0;
+  -fx-right: -20px;
+  -fx-transition: 0.5s;
+}
+
+.button:hover span {
+  -fx-padding-right: 25px;
+}
+
+.button:hover span:after {
+  -fx-opacity: 1;
+  -fx-right: 0;
+}

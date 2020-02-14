@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.net.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="342.0" prefWidth="500.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a03_04_ap.FXMLDocumentController">
+    <stylesheets>
+        <URL value="@CSSMainView.css" />
+    </stylesheets>
+    <children>
+      <Button fx:id="btnMySql" layoutX="115.0" layoutY="218.0" mnemonicParsing="false" onAction="#changeViewToMySqlDB" prefHeight="40.0" prefWidth="123.0" text="MySQL" textFill="#b21515" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="262.0" AnchorPane.topAnchor="218.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonMsExcess" layoutX="269.0" layoutY="215.0" mnemonicParsing="false" onAction="#changeViewToMsExcessDB" prefHeight="48.0" prefWidth="123.0" text="MS Access" textFill="#2a1c6b" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="262.0" AnchorPane.rightAnchor="115.0" AnchorPane.topAnchor="218.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" prefHeight="26.0" prefWidth="464.0" text="DB CONNECT" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="200.0" />
+        </content>
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TitledPane>
+      <Button layoutX="392.0" layoutY="297.0" mnemonicParsing="false" onAction="#goToAboutView" text="About" />
+      <Label layoutX="66.0" layoutY="78.0" text="Database Name" />
+      <Label layoutX="126.0" layoutY="122.0" text="User" />
+      <Label fx:id="password" layoutX="101.0" layoutY="163.0" text="Password" />
+      <TextField fx:id="databaseName" layoutX="176.0" layoutY="74.0" text="apassignmentschema" />
+      <TextField fx:id="userName" layoutX="176.0" layoutY="118.0" text="root" />
+      <PasswordField fx:id="pass" layoutX="176.0" layoutY="159.0" text="12345678Hamza" />
+    </children>
+</AnchorPane>

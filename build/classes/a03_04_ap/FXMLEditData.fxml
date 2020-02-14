@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a03_04_ap.FXMLEditDataController">
+   <children>
+      <TitledPane animated="false" layoutX="20.0" layoutY="14.0" prefHeight="9.0" prefWidth="202.0" text="Edit Table" textFill="#72491a" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TitledPane>
+      <Label layoutX="56.0" layoutY="101.0" text="Table Name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="queryField" layoutX="150.0" layoutY="140.0" onKeyTyped="#increaseProgressBar" prefHeight="120.0" prefWidth="367.0" />
+      <Label layoutX="26.0" layoutY="149.0" text="Enter SQL Query:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="executeButton" layoutX="284.0" layoutY="286.0" mnemonicParsing="false" onAction="#executeQuery" prefHeight="25.0" prefWidth="100.0" text="Execute" />
+      <Button fx:id="backButton" layoutX="491.0" layoutY="346.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+      <ProgressBar fx:id="progressBar" layoutX="234.0" layoutY="328.0" prefWidth="200.0" progress="0.0" />
+      <Label fx:id="tableName" layoutX="159.0" layoutY="101.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
