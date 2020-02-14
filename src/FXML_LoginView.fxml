@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="184.0" prefWidth="322.0" style="-fx-border-width: 1; -fx-border-color: ligthblue; -fx-border-style: dashed;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a03_04_ap.FXML_LoginViewController">
+       <children>
+      <ImageView fitHeight="188.0" fitWidth="322.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@3.jpg" />
+         </image>
+      </ImageView>
+        <Button fx:id="button" layoutX="128.0" layoutY="133.0" onAction="#handleButtonAction" text="Login" />
+        <Label fx:id="label" layoutX="126.0" layoutY="27.0" minHeight="16" minWidth="69" text="Welcome" textFill="#2f2828">
+         <font>
+            <Font name="Tahoma" size="15.0" />
+         </font></Label>
+      <TextField fx:id="username_box" layoutX="86.0" layoutY="65.0" />
+      <TextField fx:id="password_box" layoutX="86.0" layoutY="100.0" />
+      <Label fx:id="label1" layoutX="25.0" layoutY="69.0" minHeight="16" minWidth="69" text="Username" />
+      <Label fx:id="label11" layoutX="25.0" layoutY="104.0" minHeight="16" minWidth="69" text="Password" />
+      <Label fx:id="invalid_label" layoutX="96.0" layoutY="169.0" textFill="#ee0b0b" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a03_04_ap.FXML_ViewMetaDataController">
+   <children>
+      <TitledPane animated="false" layoutX="8.0" layoutY="8.0" prefHeight="21.0" prefWidth="202.0" text="Meta Data" textFill="#c91d1d" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TitledPane>
+      <Button fx:id="backButton" layoutX="518.0" layoutY="351.0" mnemonicParsing="false" onAction="#submitOp" text="Back" textFill="#133fb9" />
+      <Label fx:id="tableName" layoutX="135.0" layoutY="54.0" prefHeight="26.0" prefWidth="57.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TableView fx:id="tableview" layoutX="80.0" layoutY="86.0" prefHeight="248.0" prefWidth="397.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0" />
+      <Label layoutX="30.0" layoutY="54.0" text="Table Name:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

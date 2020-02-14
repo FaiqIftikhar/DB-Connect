@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a03_04_ap.FXML_ViewTableController">
+   <children>
+      <TitledPane animated="false" layoutX="6.0" layoutY="7.0" prefHeight="37.0" prefWidth="600.0" text="Table View" textFill="#cd3434" AnchorPane.bottomAnchor="363.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="314.0" prefWidth="598.0" />
+        </content>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TitledPane>
+      <TableView fx:id="tableview" layoutX="101.0" layoutY="89.0" prefHeight="299.0" prefWidth="398.0" />
+      <Label layoutX="40.0" layoutY="51.0" prefHeight="25.0" prefWidth="97.0" text="Table Name:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="tableName" layoutX="144.0" layoutY="51.0" text="ToBeAdded">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="526.0" layoutY="354.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="60.0" text="Back" />
+   </children>
+</AnchorPane>
